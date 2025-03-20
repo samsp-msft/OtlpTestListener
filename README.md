@@ -1,4 +1,4 @@
-#OTLP Test Listener
+# OTLP Test Listener
 
 A small server that implements an OTLP endpoint.
 
