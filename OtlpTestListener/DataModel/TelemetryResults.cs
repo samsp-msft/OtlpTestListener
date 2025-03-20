@@ -4,8 +4,8 @@ namespace OtlpTestListener;
 
 public class TelemetryResults
 {
-    public int SpanIdCount;
-    public int LogMessageCount;
+    public int SpanIdCount { get; set; }
+    public int LogMessageCount { get; set; }
     public List<string> MetricNames { get; init; } = new();
     public List<string> ResourceNames { get; init; } = new();
     public List<string> TraceIds { get; init; } = new();
